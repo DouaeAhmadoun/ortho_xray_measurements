@@ -6,3 +6,4 @@ plotly
 streamlit_image_coordinates
 opencv-python-headless
 pytesseract
+openpyxl
