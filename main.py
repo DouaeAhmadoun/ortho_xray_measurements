@@ -367,6 +367,17 @@ def main():
                     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                     type="primary"
                 )
+    
+    st.markdown(
+        """
+        <hr>
+        <div style="text-align: center; font-size: 0.9rem; color: #666;">
+            Application développée par <strong>Dr. Douae Ahmadoun</strong>  
+            pour <strong>Dr. Afaf Merouani Idrissi</strong> dans le cadre de ses travaux sur les images radiologiques orthodontiques.
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 if __name__ == "__main__":
     st.set_page_config(
